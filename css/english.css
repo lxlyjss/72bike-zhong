@@ -1,0 +1,518 @@
+.moreBtn{
+	letter-spacing: 0;
+}
+
+.mean-list a .list{
+	max-width: 2.1rem;
+	height: auto;
+}
+.active>.fp-tableCell .page2-moreBtn{
+	opacity: 1;
+	transition: all 1s ease-in-out 2.3s;
+	-webkit-transition: all 1s ease-in-out 2.3s;
+}
+.page3-word{
+	width: 19rem;
+}
+.page4-pic{
+	left: 0rem;
+}
+.page4-business{
+	left: 3.5rem;
+}
+.page4-mean{
+	width: 12rem;
+	right: -3.5rem;
+}
+.page4-mean ul li{
+	width: 6rem;
+}
+.page4-moreBtn{
+	right: 5.4rem;
+}
+.page5-pic{
+	left: 1.5rem;
+}
+.page5-accounts{
+	left: 8.5rem;
+}
+.page5-mean {
+	width: 6.5rem;
+	right: .5rem;
+}
+.page5-mean ul li{
+	width: 6.5rem;
+}
+.page5-mean ul li:nth-child(4){
+	width: 6.5rem;
+}
+.page5-moreBtn{
+	top: 7rem;
+	right: 3.8rem;
+}
+/*.page6-TV{
+	left: 2rem;
+}
+.page6-mean{
+	right: 1.2rem;
+}*/
+.page6-online{
+	right: 13rem;
+	top: 7.4rem;
+}
+.page6-mean{
+	top: 0rem;
+	right: -1.2rem;
+}
+.page6-moreBtn{
+	top:6.8rem;
+}
+.active>.fp-tableCell .page7-offline{
+	right: 14rem;
+	top: .3rem;
+	transition: all .8s ease-out;
+	-webkit-transition: all .8s ease-out;
+}
+.page7-mean{
+	width: 11rem;
+}
+.page7-mean ul li{
+	width: 5.5rem;
+}
+.page7-mean ul li:first-of-type{
+	width: 7rem;
+}
+.page7-mean ul li:nth-of-type(2){
+	width: 5.5rem;
+}
+.page8-pic{
+	left: 0rem;
+}
+.page8-peixun{
+	left: -3rem;
+}
+.page8-word{
+	width: 13rem;
+	left: 8.2rem;
+}
+.page8-kids{
+	width: 8.666667rem;
+	height: .8333333rem;
+	background: url(../img/big-fun.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 1rem;
+	left: -3.5rem;
+	z-index: 1;
+}
+.page8-moreBtn{
+	right: -3.2rem;
+	top: 5.2rem;
+}
+.page9-moreBtn{
+	top: 13rem;
+}
+.page10-box{
+	top: -10%;
+}
+.page10-word{
+	width: 13rem;
+	top: 7rem;
+}
+.page10-ma span{
+	width: 6rem;
+}
+.page10-ma .page10-ma1{
+	margin-right: 4rem;
+}
+.page10-ma1 img{
+	margin-left: 2rem;
+}
+.page10-ma2 img{
+	margin-left: 1.5rem;
+}
+@media screen and (max-width: 780px) {
+	.page7-mean{
+		right: 0rem;
+	}
+	.page10-ma1 img{
+		margin-left: 1.5rem;
+	}
+	.page10-ma span{
+		width: 5rem;
+		text-align: center;
+		bottom: -1.8rem;
+	}
+}
+@media screen and (max-width: 650px) {
+	.mean-list a .list {
+		max-width: 3.1rem;
+		padding: .1rem .3rem;
+	}
+	.page4-mean{
+		width: 12rem;
+		right: -2.5rem;
+		top: 4rem;
+	}
+	.page5-mean {
+		width: 7.5rem;
+		right: .5rem;
+	}
+	.page5-mean ul li{
+		width: 7.5rem;
+	}
+	.page5-mean ul li:nth-child(4){
+		width: 7.5rem;
+	}
+	.page5-moreBtn{
+		top: 9rem;
+		right: 3.8rem;
+	}
+	.page6-TV{
+		top: -30%;
+	}
+	.page6-online{
+		right: 11rem;
+		top: 4.4rem;
+	}
+	.page6-mean{
+		top: 8rem;
+		right: 6.8rem;
+	}
+	.page6-moreBtn{
+		top: 11rem;
+	}
+	.page7-mean{
+		width: 13rem;
+		right: 5rem;
+		top: 9rem;
+	}
+	.page7-mean ul li{
+		width: 6.5rem;
+	}
+	.page7-mean ul li:nth-of-type(2){
+		width: 6.5rem;
+	}
+	.page7-mean ul li:nth-of-type(1){
+		width: 8rem;
+	}
+	.page8-word{
+		left: 7.2rem;
+	}
+	.page8-moreBtn{
+		right: -2.2rem;
+	}
+	.page9-word{
+		left: 5rem;
+	}
+	.page9-moreBtn{
+		top: 14rem;
+	}
+	.page10-ma1 span{
+		margin-left: .2rem;
+		bottom: -3rem;
+	}
+	.page10-ma2 img{
+		margin-left: 1.2rem;
+	}
+	.page10-ma2 span{
+		bottom: -2rem;
+	}
+}
+@media screen and (max-width: 560px) {
+	.page4-mean {
+		width: 16rem;
+		right: 0.5rem;
+		top: 6rem;
+	}
+	.page4-pic{
+		top: -3.7rem;
+		left: 4rem;
+	}
+	.page4-business{
+		top: -4rem;
+		left: 7.5rem;
+	}
+	.page4-mean ul li{
+		width: 8rem;
+	}
+	.page4-moreBtn{
+		top: 11rem;
+		right: 7rem;
+	}
+	.page5-mean {
+		width: 9.5rem;
+		right: 4.5rem;
+		top: 13.5rem;
+	}
+	.page5-mean ul li{
+		width: 9.5rem;
+	}
+	.page5-mean ul li:nth-child(4){
+		width: 9.5rem;
+	}
+	.page5-moreBtn{
+		top: 19rem;
+		right: 6.8rem;
+	}
+	.page6-moreBtn{
+		top: 13rem;
+	}
+	.page7-mean{
+		width: 15rem;
+		right: 5rem;
+		top: 9rem;
+	}
+	.page7-mean ul li{
+		width: 7.5rem;
+	}
+	.page7-mean ul li:nth-of-type(2){
+		width: 7.5rem;
+	}
+	.page7-mean ul li:nth-of-type(1){
+		width: 9rem;
+	}
+	.page7-moreBtn{
+		top: 14rem;
+	}
+	.page7-offline{
+		top: 6.3rem;
+		right: 10rem;
+	}
+	.page8-box{
+		top: -20%;
+	}
+	.page8-pic{
+		left: 4rem;
+	}
+	.page8-kids{
+		left: .5rem;
+	}
+	.page8-word{
+		width: 17rem;
+		left: .5rem;
+	}
+	.page8-moreBtn{
+		top: 17.2rem;
+		right: 6.8rem;
+	}
+	.page9-moreBtn{
+		left: 6rem;
+		top: 16rem;
+	}
+	.page9-word{
+		left: 3rem;
+		top: 8rem;
+	}
+	.page10-ma1 span{
+		bottom: -3.5rem;
+	}
+	.page10-ma2 span{
+		bottom: -2.3rem;
+	}
+}
+@media screen and (max-width: 500px) {
+	.page4-mean {
+		width: 12rem;
+		right: 0.5rem;
+		top: 6rem;
+	}
+	.page4-mean ul li{
+		width: 12rem;
+	}
+	.page4-moreBtn{
+		top: 20rem;
+		right: 6rem;
+	}
+	.page6-box{
+		top: -5%;
+	}
+	.page6-mean{
+		right: 5.8rem;
+	}
+	.page7-mean{
+		width: 10rem;
+		right: 6rem;
+		top: 9rem;
+	}
+	.page7-mean ul li{
+		width: 10rem;
+	}
+	.page7-mean ul li:nth-of-type(2){
+		width: 10rem;
+	}
+	.page7-mean ul li:nth-of-type(1){
+		width: 10rem;
+	}
+	.page7-moreBtn{
+		top: 16rem;
+	}
+	.page8-pic{
+		left: 6rem;
+	}
+	.page8-kids{
+		left: 2.5rem;
+	}
+	.page8-word{
+		width: 19rem;
+		left: -.5rem;
+	}
+	.page8-moreBtn{
+		top: 19rem;
+		right: 6.8rem;
+	}
+	.page9-word{
+		left: 2.5rem;
+		top: 9rem;
+	}
+	.page9-moreBtn{
+		top: 18rem;
+	}
+	.page10-ma .page10-ma1{
+		margin-right: 2rem;
+	}
+}
+@media screen and (max-width: 420px) {
+	.mean-list a .list {
+		max-width: 4.1rem;
+	}
+	.page5-mean {
+		width: 12rem;
+		right: 2.5rem;
+	}
+	.page5-mean ul li{
+		width: 12rem;
+	}
+	.page5-mean ul li:nth-child(4){
+		width: 12rem;
+	}
+	.page5-moreBtn{
+		top: 22rem;
+		right: 6.8rem;
+	}
+	.page6-mean{
+		right: 3.8rem;
+	}
+	.page7-mean{
+		width: 13rem;
+		right: 3rem;
+		top: 9rem;
+	}
+	.page7-mean ul li{
+		width: 13rem;
+	}
+	.page7-mean ul li:nth-of-type(2){
+		width: 13rem;
+	}
+	.page7-mean ul li:nth-of-type(1){
+		width: 13rem;
+	}
+	.page7-moreBtn{
+		top: 19rem;
+	}
+	.page8-kids{
+		width:14.666667rem;
+		height: 1.833333rem;
+		top: -3rem;
+		left: -.5rem;
+	}
+	.page8-moreBtn{
+		top: 21rem;
+		right: 5.8rem;
+	}
+	.page9-word{
+		left: .5rem;
+	}
+	.page9-moreBtn{
+		top: 21rem;
+		left: 5rem;
+	}
+	.page10-word{
+		width: 20rem;
+		left: .5rem;
+	}
+	.page10-ma1 span{
+		bottom: -4.8rem;
+		margin-left: 1.2rem;
+	}
+	.page10-ma2 span{
+		bottom: -4.9rem;
+		margin-left: 1.2rem;
+	}
+	.page10-ma .page10-ma1{
+		margin-right: 6rem;
+	}
+}
+@media screen and (max-width: 320px) {
+	.mean-list a .list{
+		max-width: 5.1rem;
+	}
+	.page4-mean {
+		width: 14rem;
+	}
+	.page4-mean ul li{
+		width: 14rem;
+	}
+	.page4-moreBtn{
+		right: 5rem;
+	}
+	.page5-mean {
+		width: 14rem;
+		right: 2.5rem;
+	}
+	.page5-mean ul li{
+		width: 14rem;
+	}
+	.page5-mean ul li:nth-child(4){
+		width: 14rem;
+	}
+	.page5-moreBtn{
+		right: 6rem;
+	}
+	.page6-mean{
+		right: 2.8rem;
+		top: 9rem;
+	}
+	.page6-moreBtn{
+		top: 16rem;
+	}
+	.page7-mean{
+		width: 15rem;
+		right: 3rem;
+		top: 9rem;
+	}
+	.page7-mean ul li{
+		width: 15rem;
+	}
+	.page7-mean ul li:nth-of-type(2){
+		width: 15rem;
+	}
+	.page7-mean ul li:nth-of-type(1){
+		width: 15rem;
+	}
+	.page7-moreBtn{
+		top: 19rem;
+	}
+	.page8-moreBtn{
+		top: 24rem;
+	}
+	.page9-word{
+		left: -.5rem;
+	}
+	.page9-moreBtn{
+		width: 11rem;
+		top: 25rem;
+		left: 4rem;
+	}
+	.page10-ma .page10-ma1{
+		margin-right: 6rem;
+	}
+	.page10-ma1 span{
+		bottom: -5.5rem;
+		margin-left: 1.2rem;
+	}
+	.page10-ma2 span{
+		bottom: -5.6rem;
+		margin-left: 1.2rem;
+	}
+}

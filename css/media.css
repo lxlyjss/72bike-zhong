@@ -1,0 +1,784 @@
+@media screen and (min-width: 1440px) and (max-width:1920px){
+	html{
+		font-size: 48px;
+	}
+	.mean .mean-list li span{
+		font-size: 18px;
+	}
+	.language{
+		font-size: 24px;
+	}
+	.language-box a{
+		font-size: 24px;
+	}
+	.page2-word p{
+		font-size: 18px;
+	}
+	.page3-word p{
+		font-size: 18px;
+	}
+	.page4-mean li a,.page5-mean li a,.page6-mean li a,.page7-mean li a{
+		font-size: 18px;
+	}
+	.page8-word p,.page9-word p{
+		font-size: 18px;
+		line-height: 32px;
+	}
+	.page10-word p,.page10-word span,.page10-word li{
+		font-size: 18px;
+		line-height: 32px;
+	}
+	.page-mean li .page-shortCut{
+		vertical-align: -20%;
+	}
+	.moreBtn{
+		font-size: 18px;
+	}
+}
+@media screen and (min-width: 780px) and (max-width:1440px){
+	html{
+		font-size: 32px;
+	}
+}
+
+@media screen and  (max-width:780px){
+	html{
+		font-size: 28px;
+	}
+	.fp-slidesNav ul{
+		display: none;
+	}
+	.mean{
+		/*width: 3rem;*/
+		width: auto;
+		
+	}
+	/*第四页*/
+	.page-mean{
+		font-size: 12px;
+	}
+	.page-mean li .page-shortCut{
+		width: 12px;
+		height: 12px;
+	}
+	.page4-mean{
+		width: 7rem;
+		right: -2.5rem;
+	}
+	.page4-mean ul li{
+		width: 3.5rem;
+	}
+	.page4-moreBtn{
+		right: 1.4rem;
+		top: 6.2rem;
+	}
+	/*第七页*/
+	.page7-box{
+		top: -10%;
+	}
+	.page7-pics{
+		width: 21.416667rem;
+		height: 8.270833rem;
+		left: 1.8rem;
+	}
+	.page7-offline{
+		top: 6.8rem;
+		right: 1rem;
+	}
+	.page7-mean{
+		right: -1rem;
+	}
+	/*第八页*/
+	.page8-word{
+		font-size: 12px;
+		line-height: 20px;
+	}
+	/*第九页*/
+	.page9-word{
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.page9-moreBtn{
+		width: 4.5rem;
+		left: 7rem;
+	}
+	.page10-ma span{
+		width: 3rem;
+		bottom: -1.2rem;
+		left: .1rem;
+	}
+}
+@media screen and (max-width: 650px) {
+	.bike{
+		width: 90%;
+	}
+	.share{
+		display: none !important;
+	}
+	html{
+		font-size: 24px;
+	}
+	.list{
+		padding: .4rem .3rem;
+	}
+	.list-ico{
+		width: 1.25rem;
+		height: 1.25rem;
+	}
+	.mean-list a:nth-child(3) .list-ico{
+		background-position: 0rem -1.25rem;
+	}
+	.mean-list a:nth-child(4) .list-ico{
+		background-position: 0rem -2.5rem;
+	}
+	.mean-list a:nth-child(5) div{
+		background-position: 0px -3.75rem;
+	}
+	.mean-list a:nth-child(6) div{
+		background-position: 0px -5rem;
+	}
+	/*视频页*/
+	.close-div{
+		width: 1.4rem;
+		height: 1.4rem;
+	}
+	/*第二页*/
+	.moreBtn{
+		width: 3.89rem;
+	}
+	/*第四页*/
+	.page4-mean{
+		width: 7rem;
+		top: 5rem;
+		right: -1.5rem;
+	}
+	.page4-mean ul li{
+		width: 3.5rem;
+	}
+	.page4-moreBtn{
+		right: 1.4rem;
+		top: 8.2rem;
+	}
+	/*第五页*/
+	.page5-mean{
+		width: 8.5rem;
+		top: 5.5rem;
+	}
+	.page5-mean ul li{
+		width: 3.5rem;
+	}
+	.page5-mean ul li:nth-child(4){
+		width: 5rem;
+	}
+	.page5-moreBtn{
+		top: 8rem;
+		right: 2.8rem;
+	}
+	/*第六页*/
+	.page6-mean{
+		top: 11rem;
+		right: 7.8rem;
+	}
+	.page6-moreBtn{
+		top: 14.4rem;
+		right: 8.2rem;
+	}
+	/*第七页*/
+	.page7-mean{
+		right: 6rem;
+		top: 10rem;
+	}
+	.page7-mean ul li{
+		width: 5rem;
+	}
+	.page7-moreBtn{
+		top: 13.5rem;
+		right: 10rem;
+	}
+	/*第八页*/
+	.page8-word{
+		top: -2rem;
+	}
+	/*第九页*/
+	.page9-word{
+		width: 15rem;
+		left: 3rem;
+	}
+	.page9-moreBtn{
+		width: 5rem;
+		left: 7rem;
+		top: 12.5rem;
+	}
+	/*第十页*/
+	.page10-word{
+		width: 14rem;
+	}
+	.page10-ma span{
+		width: 3rem;
+		bottom: -1.2rem;
+		left: -.1rem;
+	}
+	
+}
+@media screen and (max-width: 560px){
+	html{
+		font-size: 20px;
+	}
+	/*首页*/
+	.index-btn{
+		width: 3rem;
+		height: 1.5rem;
+	}
+	.mean-btn{
+		width: 1.455833rem;
+		height: 1.354166rem;
+		top: 1.5rem;
+	}
+	.logo{
+		width: 6.375rem;
+		height: 2.666667rem;
+	}
+	.mean{
+		padding-top: 3.5rem;
+	}
+	.list{
+		height: 2.4rem;
+	}
+	.mean-list a:nth-child(1) .list{
+		line-height: 2.4rem;
+	}
+	.list-ico{
+		
+	}
+	.page2-bike{
+		left:4rem;
+		top: 7rem;
+	}
+	.page2-word{
+		width: 80%;
+		top: 8%;
+		font-size: 12px;
+		left: 0;
+		margin: 0 auto;
+	}
+	.page3-word{
+		font-size: 12px;
+		width: 80%;
+		left: 0;
+		margin: 0 auto;
+	}
+	.page2-moreBtn{
+		top: 10%;
+	}
+	/*左右方向键*/
+	.fp-prev,.fp-next{
+		width: .833333rem;
+		height: 1.666667rem;
+	}
+	/*第二页*/
+	.moreBtn{
+		width: 4.2rem;
+	}
+	/*第四页*/
+	.page4-mean{
+		width: 8rem;
+		right: -2.5rem;
+	}
+	.page4-mean ul li{
+		width: 4rem;
+	}
+	.page4-moreBtn{
+		right: 1rem;
+		top: 9.2rem;
+	}
+	/*第五页*/
+	.page5-mean{
+		width: 10rem;
+	}
+	.page5-mean ul li{
+		width: 4rem;
+	}
+	.page5-mean ul li:nth-child(4){
+		width: 6rem;
+	}
+	.page5-moreBtn{
+		top: 8rem;
+		right: 3.8rem;
+	}
+	.page6-moreBtn{
+		top: 17rem;
+	}
+	/*第七页*/
+	.page7-mean{
+		width: 1rem;
+		right: 13.5rem;
+		top: 9rem;
+	}
+	.page7-mean ul li{
+		width: 6rem;
+	}
+	.page7-mean ul li:nth-child(2){
+		width: 7rem;
+	}
+	.page7-moreBtn{
+		top: 15rem;
+	}
+	.page7-pics{
+		display: none;
+	}
+	.page7-pics-sm{
+		display: block;
+	}
+	.page7-huodong{
+		top: 5.5rem;
+		left: 6rem;
+	}
+	.page7-offline{
+		top: -2.3rem;
+		right: 4rem;
+	}
+	.page7-moreBtn{
+		top: 16rem;
+	}
+	/*第八页*/
+	.page8-box{
+		top: -10%;
+	}
+	.page8-word{
+		width: 8rem;
+		top:8rem;
+		left: 5rem;
+	}
+	.page8-word p{
+		text-align: center;
+	}
+	.page8-moreBtn{
+		right: 6.7rem;
+		top: 16.2rem;
+	}
+	/*第九页*/
+	.page9-word{
+		width: 18rem;
+		left: 2rem;
+	}
+	.page9-moreBtn{
+		width: 6rem;
+		left: 7rem;
+		top: 13.5rem;
+		padding: 6px 0px 3px 6px;
+	}
+	/*第十页*/
+	.page10-word{
+		width: 16rem;
+	}
+	.page10-ma span{
+		width: 3rem;
+		bottom: -1.2rem;
+		left: -.1rem;
+	}
+	.language{
+		top: 1.5rem;
+	}
+	.language-box{
+		top: 2.2rem;
+	}
+}
+@media screen and (max-width: 500px) {
+	html{
+		font-size: 18px;
+	}
+	.logo{
+		width: 9rem;
+		height: 3.7rem;
+	}
+	.mean-btn{
+		width:1.895833rem;
+		height: 1.854166rem;
+		top: 1.8rem;
+		right: 1rem;
+	}
+	.mean{
+		padding-top: 4rem;
+	}
+	.fp-slidesNav ul{
+		display: none;
+	}
+	/*首页*/
+	.bike-shadow{
+		bottom: -4rem;
+	}
+	.what-zh{
+		bottom: 0rem;
+		left: 6.2rem;
+	}
+	/*视频页*/
+	.close-div{
+		width: 1.8rem;
+		height: 1.8rem;
+		top: 4rem;
+		right: 1rem;
+	}
+	/*第二页*/
+	.moreBtn{
+		width: 4.5rem;
+		padding: 6px 0 6px 6px;
+	}
+	.page2-moreBtn{
+		margin-left: -2.25rem;
+	}
+	.page3-moreBtn{
+		margin-left: -2.25rem;
+	}
+	/*第四页*/
+	.page4-box{
+		top: -10%;
+	}
+	.page4-mean{
+		width: 12rem;
+		height: auto;
+		right: 2.5rem;
+		top: 12rem;
+	}
+	.page4-mean ul li{
+		width: 6rem;
+	}
+	.page4-moreBtn{
+		right: 6.1rem;
+		top: 20rem;
+	}
+	/*第五页*/
+	.page5-box{
+		top: -15%;
+	}
+	.page5-mean{
+		width: 12rem;
+		top: 14.5rem;
+		right: 2.5rem;
+	}
+	.page5-mean ul li{
+		width: 4.5rem;
+	}
+	.page5-mean ul li:nth-child(4){
+		width: 7.5rem;
+	}
+	.page5-moreBtn{
+		top: 19rem;
+		right: 7.5rem;
+	}
+	.page5-wanjia{
+		top: 8.8rem;
+		left: 4rem;
+	}
+	/*第六页*/
+	.page6-box{
+		top: -10%;
+	}
+	.page6-mean{
+		top: 14rem;
+	}
+	.page6-moreBtn{
+		top: 22rem;
+	}
+	.page6-mingxing{
+		left: 2.5rem;
+		top: 5.6rem;
+	}
+	/*第八页*/
+	.page8-word{
+		width: 9rem;
+	}
+	.page8-moreBtn{
+		right: 6.2rem;
+		top: 18rem;
+	}
+	/*第九页*/
+	.page9-word{
+		width: 20rem;
+		left: 1rem;
+		top: 10rem;
+	}
+	.page9-moreBtn{
+		width: 7rem;
+		left: 6rem;
+		top: 17.5rem;
+		padding: 6px 0px 6px 6px;
+	}
+	.page9-pic{
+		width: 11.4375rem;
+		height: 10rem;
+		left: 4rem;
+		top:-3rem;
+	}
+	.page9-join{
+		left: 14rem;
+		top: -3.2rem;
+	}
+	.page9-zhaopin{
+		left: 15.8rem;
+		top: -2rem;
+	}
+	.page9-bike{
+		left: 3rem;
+		top: 6.5rem;
+	}
+	/*第十页*/
+	.page10-word{
+		width: 18rem;
+	}
+	.page10-ma1,.page10-ma2{
+		width: 4.583334rem;
+		height: 4.458334rem;
+	}
+	.page10-ma2{
+		background-position: 4.583334rem 0;
+	}
+	.page10-ma span{
+		width: 4rem;
+		left: .7rem;
+		bottom: -1.5rem;
+	}
+	.page10-ma .page10-ma1{
+		margin-right: 2rem;
+	}
+	.page10-box{
+		top: -10%;
+	}
+	.language{
+		top: 2rem;
+		right: 3rem;
+	}
+	.language-box{
+		top: 2.8rem;
+		right: 3.2rem;
+	}
+}
+@media screen and (max-width: 420px) {
+	html{
+		font-size: 14px;
+	}
+	.list{
+		height: 3rem;
+	}
+	.mean-list a:nth-child(1) .list{
+		line-height: 3rem;
+	}
+	.list-ico{
+		width: 2rem;
+		height: 2rem;
+	}
+	.mean-list a:nth-child(3) .list-ico{
+		background-position: 0rem -2rem;
+	}
+	.mean-list a:nth-child(4) .list-ico{
+		background-position: 0rem -4rem;
+	}
+	.mean-list a:nth-child(5) div{
+		background-position: 0px -6rem;
+	}
+	.mean-list a:nth-child(6) div{
+		background-position: 0px -8rem;
+	}
+	/*视频页*/
+	.close-div{
+		width: 2.2rem;
+		height: 2.2rem;
+		top: 4rem;
+		right: 1rem;
+	}
+	/*第二页*/
+	.moreBtn{
+		width: 6rem;
+		padding: 8px 0 6px 6px;
+	}
+	.page2-moreBtn{
+		margin-left: -3rem;
+	}
+	.page3-moreBtn{
+		margin-left: -3rem;
+	}
+	/*第五页*/
+	.page5-mean{
+		width: 8rem;
+		top: 14.5rem;
+		right: 4.5rem;
+	}
+	.page5-mean ul li{
+		width: 5rem;
+	}
+	.page5-mean ul li:nth-child(4){
+		width: 8rem;
+	}
+	.page5-moreBtn{
+		top: 23rem;
+		right: 7rem;
+	}
+	/*第六页*/
+	.page6-mean{
+		top: 12rem;
+		right: 7rem;
+	}
+	.page6-online{
+		right: 2rem;
+		top: -1.5rem;
+	}
+	.page6-moreBtn{
+		top:18rem;
+		right: 7.2rem;
+	}
+	/*第七页*/
+	.page7-mean{
+		width: 16rem;
+		right: 3rem;
+	}
+	.page7-mean ul li{
+		width: 8rem;
+	}
+	.page7-mean ul li:nth-child(2){
+		width: 8rem;
+	}
+	.page7-moreBtn{
+		top: 16rem;
+		right: 8rem;
+	}
+	/*第八页*/
+	.page8-word{
+		width: 12rem;
+		left: 4rem;
+	}
+	.page8-moreBtn{
+		right: 5.2rem;
+		top: 20rem;
+	}
+	.page8-pic{
+		width: 14.28125rem;
+		height: 10.375rem;
+		top: -4rem;
+		left: 2rem;
+	}
+	.page8-peixun{
+		left: 2rem;
+		top: -2rem;
+	}
+	.page8-kids{
+		left: 7rem;
+		top: 6.5rem;
+	}
+	/*第九页*/
+	.page9-word{
+		width: 20rem;
+		left: 4rem;
+		top: 10rem;
+	}
+	.page9-moreBtn{
+		width: 8rem;
+		left: 6rem;
+		top: 21rem;
+		padding: 6px 0px 6px 6px;
+	}
+	/*第十页*/
+	.page10-word{
+		width: 18rem;
+	}
+	.page10-ma1,.page10-ma2{
+		width: 4.583334rem;
+		height: 4.458334rem;
+	}
+	.page10-ma2{
+		background-position: 4.583334rem 0;
+	}
+	.page10-ma span{
+		width: 4rem;
+		left: .7rem;
+		bottom: -1.5rem;
+	}
+	.page10-box{
+		top: -10%;
+	}
+	.huanhang{
+		display: block;
+	}
+	.kongge{
+		display: inline;
+	}
+	.page10-ma span{
+		width: 5rem;
+		left: .2rem;
+	}
+	.language{
+		top: 1.8rem;
+		right: 3.2rem;
+	}
+	.language-box{
+		top: 3rem;
+		right: 3.6rem;
+	}
+}
+@media screen and (max-width: 320px) {
+	html{
+		font-size: 12px;
+	}
+	.list{
+		height: 3.4rem;
+	}
+	.mean-list a:nth-child(1) .list{
+		line-height: 3.4rem;
+	}
+	/*第二页*/
+	.moreBtn{
+		width: 7rem;
+		padding: 8px 0 6px 6px;
+	}
+	.page2-moreBtn{
+		margin-left: -3.5rem;
+	}
+	.page3-moreBtn{
+		margin-left: -3.5rem;
+	}
+	.page4-mean{
+		width: 14rem;
+	}
+	.page4-mean ul li{
+		width: 7rem;
+	}
+	/*第五页*/
+	.page5-mean{
+		width: 10rem;
+		top: 14.5rem;
+		right: 4.5rem;
+	}
+	.page5-mean ul li{
+		width: 6rem;
+	}
+	.page5-mean ul li:nth-child(4){
+		width: 10rem;
+	}
+	.page5-moreBtn{
+		top: 23rem;
+		right: 6.5rem;
+	}
+	/*第七页*/
+	.page7-mean{
+		width: 19rem;
+		right: 2rem;
+	}
+	.page7-mean ul li{
+		width: 9rem;
+	}
+	.page7-mean ul li:nth-child(2){
+		width: 10rem;
+	}
+	/*第八页*/
+	.page8-word{
+		width: 13rem;
+		left: 3rem;
+	}
+	.page9-moreBtn{
+		width: 9rem;
+		left: 5rem;
+		top: 23rem;
+	}
+	.page10-ma span{
+		left: -.1rem;
+		bottom:-2.5rem ;
+	}
+}

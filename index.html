@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>72bike|骑二无比官网</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="description" content="骑二无比致力于为广大自行车运动爱好者及资深玩家提供服务，聚拢、集结全国自行车爱好者。 " />
+		<meta name="keywords" content="72bike,骑二无比,自行车运动,骑行,儿童自行车培训" />
+		<link rel="shortcut icon" href="img/favicon.png" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+		<!--<link rel="stylesheet" type="text/css" href="css/style.css"/>-->
+		<link rel="stylesheet" href="css/new-style.css" />
+		<link rel="stylesheet" type="text/css" href="css/media.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animation.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.fullPage.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			@font-face {
+		        font-family: 'Yuanti-SC-Regular';
+		        src:
+		                url('font/Yuanti-SC-Regular.eot?#font-spider') format('embedded-opentype'),
+		                url('font/Yuanti-SC-Regular.woff') format('woff'),
+		                url('font/Yuanti-SC-Regular.ttf') format('truetype'),
+		                url('font/Yuanti-SC-Regular.svg') format('svg');
+		    　　}
+			/*使用选择器指定字体*/
+			body{
+				font-family: 'Yuanti-SC-Regular';
+			}
+		</style>
+	</head>
+	<body>
+		<!--logo-->
+		<a href="#page1"><div class="logo"></div></a>
+		<!--右侧菜单栏按钮-->
+		<div class="mean-btn"></div>
+		<div class="language">language</div>
+		<div class="language-box">
+			<span><a href="index.html">中文</a></span><br />
+			<span><a href="index-english.html">English</a></span>
+		</div>
+		<!--右侧菜单栏-->
+		<div class="mean">
+			<ul class="mean-list">
+				<a href="#page1" onclick="$('.mean').removeClass('mean-show')"><li class="list listActive">
+					<span>首页</span>
+				</li></a>
+				<a href="#"><li class="list" onclick="$.fn.fullpage.moveTo('page2', 3);$('.mean').removeClass('mean-show')">
+					<div class="list-ico"></div>
+					<span>对企业</span>
+				</li></a>
+				<a href="#"><li class="list" onclick="$.fn.fullpage.moveTo('page2', 4);$('.mean').removeClass('mean-show')">
+					<div class="list-ico"></div>
+					<span>对玩家</span>
+				</li></a>
+				<a href="#"><li class="list" onclick="$.fn.fullpage.moveTo('page2', 5);$('.mean').removeClass('mean-show')">
+					<div class="list-ico"></div>
+					<span>线上明星作品</span>
+				</li></a>
+				<a href="#"><li class="list" onclick="$.fn.fullpage.moveTo('page2', 6);$('.mean').removeClass('mean-show')">
+					<div class="list-ico"></div>
+					<span>线下赛事活动</span>
+				</li></a>
+				<a href="#"><li class="list" onclick="$.fn.fullpage.moveTo('page2', 9);$('.mean').removeClass('mean-show')">
+					<div class="list-ico"></div>
+					<span>加入我们</span>
+				</li></a>
+			</ul>
+		</div>
+		<!--分享按钮-->
+		<div class="share">
+			<a title="转发至新浪微博" charset="400-03-10" id="s_sina" href="http://v.t.sina.com.cn/share/share.php?appkey=&url=www.72bike.cn&title=72bike&Uid=5&source=&sourceUrl=" target="_blank"></a>
+			<a href="#"></a>
+			<a title="转发至QQ空间" charset="400-03-8" id="s_qq" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=www.72bike.cn" target="_blank"></a>
+			<a title="转发至腾讯微博" href="http://share.v.t.qq.com/index.php?c=share&a=index&title=72bike&url=www.72bike.cn&pic=&line1="  target="_blank"></a>
+		</div>
+		<!--主体部分-->
+		<div id="dowebok">
+			<!--主页-->
+			<div class="section section1">
+				<div class="bike">
+					<div class="bike-pic">
+						<div class="bike-shadow"></div>
+					</div>
+					<div class="smallbike"></div>
+					<div class="what"></div>
+					<div class="what-zh"></div>
+				</div>
+				<a href="#page2"><div class="index-btn"></div></a>
+			</div>
+			<!--第二页-->
+			<div class="section section2">
+				<!--视频页-->
+				<div class="slide">
+					<div class="video-div">
+						<div class="close-div" onclick="$.fn.fullpage.moveSlideRight()"></div>
+						<div class="play-btn"></div>
+						<video width="100%" id="video" preload="metadata">
+							<source src="http://www.72bike.cn/videos/video-home.mp4" type="video/mp4"></source>
+							当前浏览器不支持 video直接播放，点击这里下载视频： <a href="http://www.72bike.cn/videos/video-home.mp4">下载视频</a>
+						</video>
+					</div>
+				</div>
+				<!--使命-->
+				<div class="slide">
+					<div class="page2-box">
+						<div class="page2-pic"></div>
+						<div class="page-bike page2-bike"></div>
+						<div class="page2-mission"></div>
+						<div class="page2-shiming"></div>
+					</div>
+					<div class="page-word page2-word">
+						<!--<p>打造运动自行车的B2C的双向导流平台。<br />-->
+						<p><i>打造运动自行车的B2C的双向导流平台。</i><br />
+						<i>骑二无比通过打造连接运动自行车用户和企业的双向导流平台，</i><i>持续持续为用户提供专业娱乐及个性化的服务，</i><i>不断聚拢、集结全国自行车爱好者及资深玩家；</i><i>同时以广大用户群为基础，</i><i>根据企业的个性化需求，</i><i>设计并执行解决方案和增值服务。</i></p>
+					</div>
+					<script>
+						$(".page2-word p i").each(function (index){
+							$(".page2-word p i").eq(index).css("transition-delay",index*.5+"s");
+						})
+					</script>
+					<div class="moreBtn page2-moreBtn">
+						<span>查看更多</span>
+					</div>
+				</div>
+				<!--价值-->
+				<div class="slide">
+					<div class="page3-box">
+						<div class="page3-pic"></div>
+						<div class="page-bike page3-bike"></div>
+						<div class="page3-jiazhi"></div>
+						<div class="page3-value"></div>
+					</div>
+					<div class="page-word page3-word">
+						<p><i><b>对用户：</b></i><i>生产、设计趣味及专业内容，</i><i>传播、传递行业资讯，</i><i>聚拢、集结全国自行车爱好者，</i><i>提升用户对自行车运动的认知，</i><i>提供最有格调和品味的自行车生活方式。</i><br />
+						<i><b>对企业：</b></i><i>通过骑二无比的专业服务，</i><i>帮助企业扩大品牌影响力，</i><i>进一步提高产品销量；</i><i>针对企业的个性化需求，</i><i>骑二无比进行关键用户群的筛选并精准定位，</i><i>设计并执行专项解决方案。</i></p>
+					</div>
+					<script type="text/javascript">
+						$(".page3-word p i").each(function (index){
+							$(".page3-word p i").eq(index).css("transition-delay",2.3+index*.3+"s");
+						})
+					</script>
+					<div class="moreBtn page3-moreBtn">
+						<span>查看更多</span>
+					</div>
+				</div>
+				<!--对企业-->
+				<div class="slide">
+					<div class="page4-box">
+						<div class="page4-pic"></div>
+						<div class="page4-qiye"></div>
+						<div class="page4-business"></div>
+						<div class="page4-mean page-mean">
+							<ul>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">咨询服务</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">品牌推广</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">新媒体运营</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">内容策划</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">程序开发</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">大数据运用</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">内容规划</a>
+								</li>
+							</ul>
+						</div>
+						<script type="text/javascript">
+							$(".page4-mean ul li").each(function (index){
+								$(".page4-mean ul li").eq(index).css("transition-delay",2+index*.2+"s");
+							})
+						</script>
+						<div class="moreBtn page4-moreBtn">
+							<span>查看更多</span>
+						</div>
+					</div>
+					
+				</div>
+				<!--使命-->
+				<div class="slide">
+					<div class="page5-box">
+						<div class="page5-pic"></div>
+						<div class="page5-wanjia"></div>
+						<div class="page5-accounts"></div>
+						<div class="page5-mean page-mean">
+							<ul>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">买车咨询</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">玩车体验</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">卖车保障</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">全方位服务及建议</a>
+								</li>
+							</ul>
+						</div>
+						<script type="text/javascript">
+							$(".page5-mean ul li").each(function (index){
+								$(".page5-mean ul li").eq(index).css("transition-delay",2.4+index*.2+"s");
+							})
+						</script>
+						<div class="moreBtn page5-moreBtn">
+							<span>查看更多</span>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="page6-box">
+						<div class="page6-TV">
+							<div class="page6-screen"></div>
+							<div class="page6-riji"></div>
+						</div>
+						<div class="page6-mingxing"></div>
+						<div class="page6-online"></div>
+						<div class="page6-mean page-mean">
+							<ul>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">骑二无比蛋蛋蛋</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">王大嘴脱口秀</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">骑二日记</a>
+								</li>
+							</ul>
+						</div>
+						<script type="text/javascript">
+							$(".page6-mean ul li").each(function (index){
+								$(".page6-mean ul li").eq(index).css("transition-delay",3+index*.2+"s");
+							})
+						</script>
+						<div class="moreBtn page6-moreBtn">
+							<span>查看更多</span>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="page7-box">
+						<div class="page7-pics">
+							<div class="pic1"></div>
+							<div class="pic2"></div>
+							<div class="pic3"></div>
+							<div class="pic4"></div>
+							<div class="pic5"></div>
+							<div class="pic6"></div>
+						</div>
+						<div class="page7-pics-sm">
+							<div class="pic1-m"></div>
+							<div class="pic2-m"></div>
+							<div class="pic3-m"></div>
+							<div class="pic4-m"></div>
+						</div>
+						<div class="page7-huodong"></div>
+						<div class="page7-offline"></div>
+						<div class="page-mean page7-mean">
+							<ul>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">骑二带你看世界</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">异装骑行赛事系列</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">微信公众号</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">商场速降系列</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">儿童骑行系列</a>
+								</li>
+								<li>
+									<div class="page-shortCut"></div>
+									<a href="#">专业赛事系列</a>
+								</li>
+							</ul>
+						</div>
+						<div class="moreBtn page7-moreBtn">
+							<span>查看更多</span>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="page8-box">
+						<div class="page8-pic"></div>
+						<div class="page8-peixun"></div>
+						<div class="page8-kids"></div>
+						<div class="page-word page8-word">
+							<p><i>小小的单车，是天赐的礼物</i>
+								<i>大大的乐趣，编织童年的回忆</i>
+								<i>骑二用心记录</i>
+								<i>孩子、单车、勇敢、</i>
+								<i>舒展的双脚 骑出缤纷的世界</i>
+								<i>这一切的一切</i>
+								<i>从你的选择开始……</i>
+							</p>
+						</div>
+						<script>
+						$(".page8-word p i").each(function (index){
+							$(".page8-word p i").eq(index).css("transition-delay",2.5+index*.5+"s");
+						})
+					</script>
+						<div class="moreBtn page8-moreBtn">
+							<span>点击报名</span>
+						</div>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="page9-box">
+						<div class="page9-pic"></div>
+						<div class="page9-zhaopin"></div>
+						<div class="page9-join"></div>
+						<div class="page-bike page9-bike"></div>
+						<div class="page9-word page-word">
+							<p>
+								工作地点：北京<br />
+								工作时间：周一 至 周五 9:00-18:00 <br />
+								电话号码：010-80448861 <br />
+								<i>E-MAIL：nz@i-color.com.cn</i><i>（请将简历发送至此邮箱）</i>
+							</p>
+							<p>
+								<b>
+									<span onclick="zhaopinInfo(1)">剪辑包装师</span>/
+									<span onclick="zhaopinInfo(2)">特效合成师</span>/
+									<span onclick="zhaopinInfo(3)">HTML5</span>/
+								</b>
+								<b>
+									<span onclick="zhaopinInfo(4)">JAVA开发</span>/
+									<span onclick="zhaopinInfo(5)">运营经理</span>/
+									<span onclick="zhaopinInfo(5)">IOS开发</span>
+								</b>
+							</p>
+						</div>
+						<style>
+							.page9-word p b,.page9-word p i{
+								font-style: normal;
+								display: inline-block;
+								vertical-align: baseline;
+							}
+						</style>
+						<div class="moreBtn page9-moreBtn">
+							<span>我要投简历</span>
+						</div>
+					</div>
+				</div>
+				<!--<div class="slide" style="overflow: hidden;">
+					<div class="page_title page7_title"></div>
+					<div class="page7_text">
+						<p>工作地点：北京</p>
+						<p>工作时间：周一 至 周五 9:00-18:00</p>
+						<p>电话号码：010-80448861</p>
+						<p>E-MAIL：zmj@i-color.com.cn（请将简历发送至此邮箱）</p>
+						<b><p style="margin-top: 2rem;">招聘职位</p>
+						<p><span onclick="zhaopinInfo(1)">剪辑师</span>/<span onclick="zhaopinInfo(2)">摄像师</span>/<span onclick="zhaopinInfo(3)">编导</span>/<span onclick="zhaopinInfo(4)">执行专员</span>/<span onclick="zhaopinInfo(5)">新媒体运营专员</span></p></b>
+					</div>
+					<div class="zhaopinInfo" style="opacity: 0;">
+						<h2>新媒体运营</h2>
+						<b><p>岗位职责：</p></b>
+						<p class="txt1"></p>
+						<b><p>任职资格：</p></b>
+						<p class="txt2"></p>
+						<p onclick="zhaopin()" class="toZhaopin">点此返回更多职位</p>
+					</div>
+					<div class="page7_saoma"></div>
+					<div class="page7_zhaopinPic"></div>
+					<script>
+						function zhaopinInfo(index){
+							//数据更换
+							var data = [{
+								title:"剪辑师",
+								txt1:"（1）协助社交媒体运营做信息采编，编辑等相关工作，如微博、微信运营等； <br />（2）协助社交媒体内容、活动的策划工作； <br />（3）协助监测微博，负责行业热点新闻、信息的收集采编工作； <br />（4）收集社交媒体平台的热门文章、信息，进行整合分享。",
+								txt2:"（1）广告传播、计算机、新闻或文学相关专业； <br />（2）熟练PS、网络技术；有计算机基础； <br />（3）热爱社交媒体，如微博、微信等； <br />（4）有文案、策划、媒体实习经历者优先； <br />（5）对新媒体营销和传播方式的了解； <br />（6）责任心强、亲和力，有良好的沟通、实施能力及团队合作精神； <br />（7）有文字功底，阅读能力。<br /> "
+							},{
+								title:"摄像师",
+								txt1:"（1）协助社交媒体运营做信息采编，编辑等相关工作，如微博、微信运营等； <br />（2）协助社交媒体内容、活动的策划工作； <br />（3）协助监测微博，负责行业热点新闻、信息的收集采编工作； <br />（4）收集社交媒体平台的热门文章、信息，进行整合分享。",
+								txt2:"（1）广告传播、计算机、新闻或文学相关专业； <br />（2）熟练PS、网络技术；有计算机基础； <br />（3）热爱社交媒体，如微博、微信等； <br />（4）有文案、策划、媒体实习经历者优先； <br />（5）对新媒体营销和传播方式的了解； <br />（6）责任心强、亲和力，有良好的沟通、实施能力及团队合作精神； <br />（7）有文字功底，阅读能力。<br /> "
+							},{
+								title:"编导",
+								txt1:"（1）协助社交媒体运营做信息采编，编辑等相关工作，如微博、微信运营等； <br />（2）协助社交媒体内容、活动的策划工作； <br />（3）协助监测微博，负责行业热点新闻、信息的收集采编工作； <br />（4）收集社交媒体平台的热门文章、信息，进行整合分享。",
+								txt2:"（1）广告传播、计算机、新闻或文学相关专业； <br />（2）熟练PS、网络技术；有计算机基础； <br />（3）热爱社交媒体，如微博、微信等； <br />（4）有文案、策划、媒体实习经历者优先； <br />（5）对新媒体营销和传播方式的了解； <br />（6）责任心强、亲和力，有良好的沟通、实施能力及团队合作精神； <br />（7）有文字功底，阅读能力。<br /> "
+							},{
+								title:"执行专员",
+								txt1:"（1）协助社交媒体运营做信息采编，编辑等相关工作，如微博、微信运营等； <br />（2）协助社交媒体内容、活动的策划工作； <br />（3）协助监测微博，负责行业热点新闻、信息的收集采编工作； <br />（4）收集社交媒体平台的热门文章、信息，进行整合分享。",
+								txt2:"（1）广告传播、计算机、新闻或文学相关专业； <br />（2）熟练PS、网络技术；有计算机基础； <br />（3）热爱社交媒体，如微博、微信等； <br />（4）有文案、策划、媒体实习经历者优先； <br />（5）对新媒体营销和传播方式的了解； <br />（6）责任心强、亲和力，有良好的沟通、实施能力及团队合作精神； <br />（7）有文字功底，阅读能力。<br /> "
+							},{
+								title:"新媒体运营员",
+								txt1:"（1）协助社交媒体运营做信息采编，编辑等相关工作，如微博、微信运营等； <br />（2）协助社交媒体内容、活动的策划工作； <br />（3）协助监测微博，负责行业热点新闻、信息的收集采编工作； <br />（4）收集社交媒体平台的热门文章、信息，进行整合分享。",
+								txt2:"（1）广告传播、计算机、新闻或文学相关专业； <br />（2）熟练PS、网络技术；有计算机基础； <br />（3）热爱社交媒体，如微博、微信等； <br />（4）有文案、策划、媒体实习经历者优先； <br />（5）对新媒体营销和传播方式的了解； <br />（6）责任心强、亲和力，有良好的沟通、实施能力及团队合作精神； <br />（7）有文字功底，阅读能力。<br /> "
+							}]
+							function choose(i){
+								$(".zhaopinInfo>h2").html(data[i-1].title)
+								$(".txt1").html(data[i-1].txt1);
+								$(".txt2").html(data[i-1].txt2);
+							}
+							choose(index);
+							//动画功能
+							$(".page7_title").animate({
+								"left":"-50%"
+							},1000);
+							$(".page7_text").animate({
+								"left":"-50%"
+							},1000);
+							$(".page7_saoma").animate({
+								"left":"-50%"
+							},1000);
+							$(".page7_zhaopinPic").animate({
+								"left":"20%"
+							},1000);
+							$(".zhaopinInfo").animate({
+								"left":"50%",
+								"opacity":1
+							},1000);
+							$(".zhaopinInfo").fadeIn(200)
+						}
+						function zhaopin(){
+							$(".page7_title").animate({
+								"left":"20%"
+							},1000);
+							$(".page7_text").animate({
+								"left":"20%"
+							},1000);
+							$(".page7_saoma").animate({
+								"left":"20%"
+							},1000);
+							$(".page7_zhaopinPic").animate({
+								"left":"60%"
+							},1000);
+							$(".zhaopinInfo").animate({
+								"left":"130%",
+							},1000);
+							$(".zhaopinInfo").fadeOut(200)
+						}
+					</script>
+				</div>-->
+				<div class="slide">
+					<div class="page10-box">
+						<div class="page10-pic"></div>
+						<div class="page10-shadow"></div>
+						<div class="page10-bike page-bike"></div>
+						<div class="page10-lianxi"></div>
+						<div class="page10-contact"></div>
+						<div class="page10-word page-word page-mean">
+							<p>北京骑二无比网络科技有限公司<br /></p>
+							<ul>
+								<li>
+									<div class="page-shortCut"></div> 
+									<span>M:+86 010-80448861</span>
+								</li>
+								<li>
+									<div class="page-shortCut"></div> 
+									<span>E:nz@i-color.com.cn</span>
+								</li>
+								<li>
+									<div class="page-shortCut"></div> 
+									<span>北京市朝阳区来广营西路26号<br class="huanhang"/><span class="kongge">&nbsp;&nbsp;</span>（昆仑阳光电影公司西侧）</span><br />
+									&nbsp;&nbsp;（时间：周一至周五 早上9点-下午6点）</span>
+								</li>
+								<li>
+									<div class="page-shortCut"></div> 
+									<span>www.72bike.com</span>
+								</li>
+							</ul>
+							<div class="page10-ma">
+								<div class="page10-ma1">
+									<img src="img/page10-ma1.png"/>
+									<span>微信订阅号</span>
+								</div>
+								<div class="page10-ma2">
+									<img src="img/page10-ma2.png"/>
+									<span>微信服务号</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="page8_pic"></div>
+				</div>
+			</div>
+		</div>
+		<!--<div class="wait"></div>-->
+		<!--<style type="text/css">
+			.wait{
+				width: 100%;
+				height: 100%;
+				background: red;
+				position: fixed;
+				z-index: 99;
+				top: 0;left: 0;
+			}
+			
+		</style>-->
+	</body>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script type="text/javascript">
+		$('<img/>').attr('src', 'img/index-72bike.png').load(function() {
+		   $(this).remove(); // prevent memory leaks as @benweet suggested
+		   $(".wait").hide();
+		   $("#dowebok").show();
+		   $('.bike-pic').css('background-image', 'url(img/index-72bike.png)');
+		});
+	</script>-->
+</html>
